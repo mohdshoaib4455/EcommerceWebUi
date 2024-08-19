@@ -1,0 +1,847 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+
+}
+
+.contentBody {
+    display: none;
+}
+
+.preloader {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.top-bar {
+    background-color: black;
+    height: 38px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con-1 {
+    margin: 24px 0px;
+
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 75px;
+}
+
+
+
+.top-bar span {
+    color: #FFF;
+    font-family: 'satoshi-regular';
+    font-family: 'Satoshi', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top-bar a {
+    color: #FFF;
+    font-family: 'satoshi-regular';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h3 {
+    color: #000000;
+    font-family: "Integral CF Regular";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.nabvar-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seacrh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 62px;
+    background: #F0F0F0;
+    width: 400px;
+    height: 48px;
+    position: relative;
+}
+
+.search-box input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 62px;
+    background: #F0F0F0;
+    width: 400px;
+    height: 48px;
+    border: none;
+    padding: 0px 50px;
+}
+
+.search-box i {
+    position: absolute;
+    left: 15px;
+    font-size: 25px;
+    opacity: .7;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons i:nth-child(1) {
+
+    display: none;
+}
+
+.icons i:nth-child(2) {
+
+    margin-right: 12px;
+}
+
+.nav-link {
+    color: #000000a8;
+    font-family: "Satoshi Medium";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+
+/*----------------------- bnnnr -------------*/
+
+
+.conatinerBanner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0px 80px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2F0F1;
+}
+
+.rightBanner {
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+}
+
+.leftBanner {
+    width: 50%;
+    height: 100%;
+    /* padding: 0px 100px 0px 0px ; */
+    background-color: lightcoral;
+}
+
+
+.h1 {
+    color: #000;
+    font-family: "Integral CF Regular";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+
+
+
+.bannerpera {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: "Satoshi Medium";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 30px 0px;
+}
+
+.bannerBtn {
+    display: flex;
+    width: 210px;
+    height: 52px;
+    padding: 16px 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    border-radius: 62px;
+    background: #000;
+    border: none;
+    color: #FFF;
+    font-family: "Satoshi Medium";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: .6s;
+
+}
+
+.bannerBtn:hover {
+
+    border-radius: 62px;
+    background: #F0F0F0;
+    border: 1px solid black;
+    color: black;
+
+}
+
+.bannerBtn span:hover {
+    color: black;
+}
+
+
+.number {
+    width: 596px;
+    height: 74px;
+    display: inline-flex;
+    align-items: center;
+    gap: 32px;
+    margin-top: 48px;
+}
+
+.inner-num span {
+    color: #000;
+    font-family: 'satoshi-regular';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.inner-num p {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: 'satoshi-regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+
+}
+
+
+
+
+/*--------------------------- end  ----------------------------------*/
+
+.left {
+    position: absolute;
+    top: 100px;
+    left: 42px;
+}
+
+.brands {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+}
+
+
+
+.brands img {
+    width: 10%;
+    object-fit: contain;
+}
+
+.innerDressStyle {
+    padding: 70px 0px
+}
+
+.f-hr {
+    margin-top: 50px
+}
+
+.copyRight {
+    margin-top: 25px
+}
+
+.new-arrival h1 {
+    color: #000;
+    text-align: center;
+    font-family: "Integral CF Regular";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.con-3 {
+    margin-top: 64px;
+    border-radius: 30px;
+}
+
+.con_3 {
+    margin-top: 64px;
+    background-color: #f2f0f1;
+    border-radius: 30px;
+
+}
+
+.cart {
+    width: 294px;
+    height: 444px;
+    padding: 0px 20px;
+
+}
+
+
+
+.cart span {
+    color: #000;
+    font-family: "Satoshi Medium";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+}
+
+.cart img {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.cart-box {
+
+    margin-top: 80px;
+    /* position: relative; */
+
+}
+/* .overlay {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.464);
+    z-index: 10;
+} */
+
+.star {
+    display: flex;
+    align-items: flex-start;
+    gap: 5.312px;
+    margin-top: 8px;
+}
+
+.rate {
+    color: #000;
+    font-family: "Satoshi Medium";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 13px;
+
+}
+
+.rate span {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: "Satoshi Medium";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.cart h6 {
+    color: #000;
+    font-family: "Satoshi Medium";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 9px;
+
+
+}
+
+.ViewBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#View,
+#ViewAll {
+    display: flex;
+    width: 218px;
+    height: 52px;
+    padding: 16px 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    border-radius: 62px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+
+    color: #000;
+    font-family: "Satoshi Medium";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: .5s;
+}
+
+#View:hover {
+    background-color: black;
+    color: white;
+
+}
+
+#ViewAll:hover {
+    background-color: black;
+    color: white;
+
+}
+
+.hr-line {
+    margin: 64px 0px;
+}
+
+.casual {
+    width: 100%;
+    height: 289px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    background: url(images/casual1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.formal {
+    width: 100%;
+    height: 289px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+
+    background: url(images/former.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.party {
+    width: 100%;
+    height: 289px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+
+    background: url(images/party.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.gym {
+    width: 100%;
+    height: 289px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    background: url(images/gym.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.Review {
+    margin-top: 80px;
+
+}
+
+.reviewBox {
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    height: 310px;
+    padding: 28px 32px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 24px 342px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+
+
+}
+
+.ReviewerName {
+    color: #000;
+    font-family: "Satoshi Medium";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+
+
+}
+
+.ReviewerName img {
+    width: 24px;
+}
+
+.Reviewer-pera {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: "Satoshi Medium";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+}
+
+.offerHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offerHeading h1 {
+    color: #FFF;
+    font-family: "Integral CF Regular";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    /* 112.5% */
+
+
+}
+
+.offer {
+    /* background-color: black; */
+    margin-top: 80px;
+}
+
+.input-1 input {
+    display: flex;
+    width: 349px;
+    padding: 12px 40px;
+    align-items: flex-start;
+    gap: 12px;
+    border-radius: 62px;
+    background: #FFF;
+    border: none;
+    margin: 10px 0px;
+    position: relative;
+}
+
+.input-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.offer-row {
+    display: flex;
+    /* width: 1240px; */
+    padding: 36px 64px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background: #000;
+}
+
+.SubscribeBtn {
+    display: flex;
+    width: 349px;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 62px;
+    background: #FFF;
+    border: none;
+
+    color: #000;
+    font-family: "Satoshi Medium";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: .5s;
+
+}
+
+.SubscribeBtn:hover {
+
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+.p {
+    width: 248px;
+    height: 66px;
+}
+
+.footer {
+    margin-top: 50px;
+
+
+}
+
+.logoFooter h3 {
+    color: #000;
+    font-family: "Integral CF Regular";
+    font-size: 33.455px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.p p {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: "Satoshi Medium";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 25px;
+    /* 157.143% */
+}
+
+.icon {
+    margin-top: 35px;
+}
+
+.Company h5 {
+    color: #000;
+    font-family: "Satoshi Medium";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    /* 112.5% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.Company p {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: "Satoshi Medium";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    margin-top: 26px;
+    /* 118.75% */
+}
+
+.payments {
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+#ani {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 50%;
+    position: fixed;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+font-size: 10px;
+    text-align: center;
+    z-index: 9;
+}
+
+@media only screen and (max-width: 1100px) {
+    .nabvar-1 {
+        display: none;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .top-bar span {
+        color: #FFF;
+        font-family: "Satoshi Medium";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+
+    .top-bar a {
+        color: #FFF;
+        font-family: "Satoshi Medium";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration-line: underline;
+    }
+
+
+
+    .nabvar-1 {
+        display: none;
+    }
+
+    .logo h3 {
+        color: #000;
+        font-family: "Integral CF Regular";
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .con-1 {
+        width: 100%;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 10px;
+    }
+
+
+    .search-box {
+        display: none;
+
+    }
+
+    .con-2 {
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .conatinerBanner {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .rightBanner {
+        /* background-color: green; */
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .leftBanner {
+        width: 100%;
+    }
+
+    .brands {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(176, 34, 34); */
+
+    }
+
+    .brands img {
+        width: 25%;
+        height: 20px;
+        margin: 10px;
+        /* background-color: yellow; */
+    }
+
+    .cart-box {
+        padding: 0px;
+    }
+
+    .mainCart {
+        /* background-color: red; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 10px;
+    }
+
+
+    .cart {
+        max-width: 70% !important
+    }
+
+    .innerDressStyle {
+        gap: 10px;
+
+    }
+
+    .arrowReview {
+        display: none !important;
+    }
+
+    .logoFooter {
+
+        height: 200px;
+    }
+}
